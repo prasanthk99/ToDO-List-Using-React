@@ -38,7 +38,7 @@ function App() {
       <h1>TODO-LIST</h1>
       <form onSubmit={addItems}>
         <input value={Item} onChange={(e) => addItem(e.target.value)} placeholder="Enter The Task" minLength="2" maxLength="30" ref={inputfoc} />
-        <button type="submit" className="btn">ADD ITEM</button>
+        <button type="submit" className="btn">ADD TASK</button>
       </form>
 
       {data.map((dt) => {
